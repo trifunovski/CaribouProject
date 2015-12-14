@@ -113,41 +113,94 @@ expected to have a direct impact on species such as caribou, which have evolved
 specifically to thrive in cold climates. In addition, climate change could have
 significant effects on the food web, which is why we decided to investigate the
 caribou’s primary food source and predator as well. \\
-Our investigation used Maxent to establish distributions for all three species,
+Our investigation used MaxEnt to establish distributions for all three species,
 based on location data found online. By comparing these distributions to current
-climate data, Maxent can predict a distribution of these species in 2070, using
+climate data, MaxEnt can predict a distribution of these species in 2070, using
 future climate data obtained from climate models. Since arctic climate change
-will mainly be affecting temperature and precipitation, we chose similar climate
-variables that we thought would be most likely to affect our three species.
-Although we only considered climate related variables, Maxent showed that the
-distribution of caribou was likely to decrease in the near future, which in turn
-might have significant effects on other species, including grey wolves.
+will mainly be affecting temperature and precipitation, we chose similar
+climate variables that we thought would be most likely to affect our three
+species. Although we only considered climate related variables, MaxEnt showed
+that the distribution of caribou was likely to decrease in the near future,
+which in turn might have significant effects on other species, including
+grey wolves.
+
 
 
 
 \section{Methods}
 We gathered the caribou and gray wolf current data from vertnet.com,
-and the Cladonia rangiferina data from gbif.org. From the downloaded datasets,
-only the latitude and longitude coordinates were used to create the current
-distributions of all three species. These distributions were also filtered
-to only consider location data for North America, as all three species can
-also be found elsewhere with similar ecosystems, such as Eurasia. \\
-In order to predict the distribution of each of our three species of interest
-in the year 2070, we used Maxent. We used current global climate data as well
-as future predictions from worldclim.org.  We decided on using the following
-four variables:  Annual Mean Temperature, Precipitation Seasonality,
-Precipitation of Driest Quarter and Precipitation of Warmest Quarter.
-These variables should account for the main differences in climate between now
-and 2070. Cladonia Rangiferina is a very hardy lichen, which can grow in varied
-conditions of temperature and precipitation. Unlike many vascular plants, it is
-also well-suited to very cold climates, which enables it to grow at
-high latitudes.
+and the Cladonia rangiferina data from gbif.org (Global Biodiversity
+Information Facility). From the downloaded datasets in .tsv format,
+only the latitude and longitude coordinates were used to create the
+current distributions of all three species. These distributions were
+also filtered to only consider location data for North America, as all
+three species can also be found elsewhere with similar ecosystems, such
+as Eurasia. (Figure 1) \\
 
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{Figure1}
+\caption{Cladonia rangiferina data}
+\end{figure}
+
+In order to predict the distribution of each of our three species of interest
+in the year 2070, we used maximum entropy modeling (MaxEnt). We used current
+global climate data as well as future global climate predictions obtained
+from worldclim.org. We decided to use the following four climate variables:
+Annual Mean Temperature, Precipitation Seasonality, Precipitation of Driest
+Quarter and Precipitation of Warmest Quarter.** These variables should account
+for the main differences in climate between now and 2070, and should therefore
+have an impact on the possible distributions of all three of our species.
+The climate data was downloaded from worldclim.org in raster format, which was
+then converted to Ascii (.asc) format using the ArcGIS software. We chose to
+download data for 2.5 arc-minute resolution, which gives detailed data for a
+small area while keeping the file size manageable. For the future climate data,
+we chose to download data from the BCC-CSM1.1 climate model, following the
+RCP85 trajectory. The RCP projection simply allows to control for the amount
+of greenhouse gas emissions (IPCC). So RCP85 represents one of the more
+pessimistic, but realistic, greenhouse gas emission scenarios, where emissions
+continue to rise throughout the 21st century, which could happen if nations
+do not take policy action to mitigate their emissions. Once all the input data
+was correctly obtained and formatted, we ran MaxEnt and obtained the results
+in the ‘raw’ format, which is the simplest output format, and just shows the
+results of the Maxent model for where the species is more suitable to live in.
 
 
 \section{Results}
-We started by predicting what is going to happen to the Caribou distribution, by
-first making a Maxent run of the current habitat of the Caribou (Figure 1).
+MaxEnt results are shown in the form of maps that indicate the suitability
+for where each species is likely to be able to live. Figure 2 shows the
+present distribution, and Figure 3 shows the future distribution for
+reindeer lichen (Cladonia rangiferina). It is clear that most of the
+continent of North America (except for some parts of Mexico) is habitable
+for Cladonia rangiferina, and even in 2070, the distribution does not change
+too much. \\
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{NCladoniaPresent}
+\caption{Distribution of Cladonia Rangiferina in North America}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{NCladoniaFuture}
+\caption{Distribution of Cladonia Rangiferina in North America}
+\end{figure}
+
+Cladonia rangiferina is a very hardy lichen, which can grow in varied conditions
+of temperature and precipitation. Unlike many plants, it is also well suited
+to very cold climates, which enables it to grow at high latitudes in the
+tundra ecosystem. By absorbing moisture directly from the air, it is also able
+to thrive in areas with low precipitation. (US Forest Service). This can be
+seen in the map because much of Alaska, Northern Canada, and even coastal
+Greenland is seen as a suitable habitat for Cladonia rangiferina, whereas
+the southern portion of the US is less suitable. By absorbing moisture
+directly from the air, it is also able to thrive in areas with low
+precipitation. (US Forest Service)\\
+
+Figures 4 and 5 show the current and future distribution of caribou. We
+immediately notice that the amount of suitable habitat for caribou noticeably
+shrinks between now and 2070, which indicates that climate change will probably
+have a significant effect on the current habitat of caribou.
 
 \begin{figure}[h!]
 \centering
@@ -155,42 +208,10 @@ first making a Maxent run of the current habitat of the Caribou (Figure 1).
 \caption{Distribution of Caribou in North America}
 \end{figure}
 
-We then made another Maxent run with the worldclim predicted 2070 climate
-conditions (Figure 2).
-
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{NCaribouFuture}
 \caption{Predicted Caribou habitat for year 2070}
-\end{figure}
-
-As we can see the habitable area of the Caribou will noticeably shrink
-in the year 2070 according to our predictions. One factor we could not
-include in our Maxent runs (we could not add it as a variable), is the
-distribution of the Caribou's primary food, the Cladonia rangiferina.
-Instead we are going to try to use Maxent with the current distribution
-of the raindeer lichen and predict its future habitat and then try to
-explain if that would effect (shrink even more) the habitat of the
-Caribou in 2070. We still consider the same four variables that we used
-in our Maxent runs for the present and future habitat of the Caribou (Figure 3).
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.7\textwidth]{NCladoniaPresent}
-\caption{Distribution of Cladonia Rangiferina in North America}
-\end{figure}
-
-As we can see, the habitat of the Cladonia Rangiferina overlaps with the
-habitat of the Caribou. In fact, Caribou's habitat is a subset of the
-habitat of the raindeer lichen, giving us even more proof that the
-Caribou will only survive in the boundaries of the raindeer lichen's
-habitat. Then we run a simulation of the future conditions to see if they
-restrict Caribou's habitat even more (Figure 4).
-
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.7\textwidth]{NCladoniaFuture}
-\caption{Distribution of Cladonia Rangiferina in North America}
 \end{figure}
 
 \section{Discussion}
