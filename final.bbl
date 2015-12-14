@@ -1,5 +1,20 @@
 \begin{thebibliography}{1}
 
+\bibitem{jbrotton}
+Janet {Brotton} and Geoffrey {Wall}.
+\newblock Climate change and the {Bathurst} caribou herd in the {Northwest}
+  {Territories}, {Canada}.
+\newblock {\em Climatic Change}, 35, 1997.
+\newblock \url{http://link.springer.com/article/10.1023/A:1005313315265}.
+
+\bibitem{mfesta}
+M.~Festa-Bianchet, J.C. Ray, S.~Boutin, S.D. Côté, and A.~Gunn.
+\newblock Conservation of {caribou} ({Rangifer} tarandus) in {Canada}: an
+  uncertain future.
+\newblock {\em Canadian Journal of Zoology}, 89, 2011.
+\newblock
+  \url{http://www.nrcresearchpress.com/doi/abs/10.1139/z11-025#.Vl_9ot-rTdT}.
+
 \bibitem{ipcc4ar}
 IPCC.
 \newblock Climate, environment and socio-economic state.
@@ -11,6 +26,13 @@ IPCC.
 \newblock Scenario process for ar5.
 \newblock \url{http://sedac.ipcc-data.org/ddc/ar5_scenario_process/RCPs.html},
   2014.
+
+\bibitem{elenart}
+Elizabeth~A. Lenart, R.~Terry Bowyer, Jay~Ver Hoef, and Roger~W. Ruess.
+\newblock Climate change and caribou: effects of summer weather on forage.
+\newblock {\em Canadian Journal of Zoology}, 80, 2002.
+\newblock
+  \url{http://www.nrcresearchpress.com/doi/abs/10.1139/z02-034#.Vl_9yd-rTdR}.
 
 \bibitem{usfs}
 USFS.
