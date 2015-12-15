@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 DEC 2015 21:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 DEC 2015 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -503,12 +503,7 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 134--142
-
- []
-
-<images/Figure1.png, id=15, 964.93834pt x 1285.46916pt>
+[3] <images/Figure1.png, id=15, 964.93834pt x 1285.46916pt>
 File: images/Figure1.png Graphic file (type png)
 
 <use images/Figure1.png>
@@ -518,8 +513,7 @@ Package pdftex.def Info: images/Figure1.png used on input line 145.
 Underfull \vbox (badness 5403) has occurred while \output is active []
 
  [4]
-[5 <./images/Figure1.png>]
-<images/NCladoniaPresent.png, id=22, 1970.36125pt x 1060.96375pt>
+<images/NCladoniaPresent.png, id=19, 1970.36125pt x 1060.96375pt>
 File: images/NCladoniaPresent.png Graphic file (type png)
 
 <use images/NCladoniaPresent.png>
@@ -530,58 +524,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--184
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--196
+[5 <./images/Figure1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 186--194
 
  []
 
-[6 <./images/NCladoniaPresent.png>]
-<images/NCladoniaFuture.png, id=28, 1970.36125pt x 1060.96375pt>
+<images/NCladoniaFuture.png, id=24, 1970.36125pt x 1060.96375pt>
 File: images/NCladoniaFuture.png Graphic file (type png)
 
 <use images/NCladoniaFuture.png>
-Package pdftex.def Info: images/NCladoniaFuture.png used on input line 199.
+Package pdftex.def Info: images/NCladoniaFuture.png used on input line 197.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
-
+ [6 <./images/NCladoniaPresent.png>]
 <images/NCaribouPresent.png, id=29, 1970.36125pt x 1060.96375pt>
 File: images/NCaribouPresent.png Graphic file (type png)
 
 <use images/NCaribouPresent.png>
-Package pdftex.def Info: images/NCaribouPresent.png used on input line 212.
+Package pdftex.def Info: images/NCaribouPresent.png used on input line 210.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
- [7 <./images/NCladoniaFuture.png> <./images/NCaribouPresent.png>]
-<images/NCaribouFuture.png, id=36, 1970.36125pt x 1060.96375pt>
+
+<images/NCaribouFuture.png, id=30, 1970.36125pt x 1060.96375pt>
 File: images/NCaribouFuture.png Graphic file (type png)
 
 <use images/NCaribouFuture.png>
-Package pdftex.def Info: images/NCaribouFuture.png used on input line 225.
+Package pdftex.def Info: images/NCaribouFuture.png used on input line 223.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
-
+ [7 <./images/NCladoniaFuture.png> <./images/NCaribouPresent.png>]
 <images/NCanisPresent.png, id=37, 1970.36125pt x 1060.96375pt>
 File: images/NCanisPresent.png Graphic file (type png)
 
 <use images/NCanisPresent.png>
-Package pdftex.def Info: images/NCanisPresent.png used on input line 239.
+Package pdftex.def Info: images/NCanisPresent.png used on input line 237.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
 
 <images/NCanisFuture.png, id=38, 1970.36125pt x 1060.96375pt>
 File: images/NCanisFuture.png Graphic file (type png)
 
 <use images/NCanisFuture.png>
-Package pdftex.def Info: images/NCanisFuture.png used on input line 245.
+Package pdftex.def Info: images/NCanisFuture.png used on input line 243.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
- [8 <./images/NCaribouFuture.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9 <./images/NCanisPresent.png> <./images/NCanisFuture.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-LaTeX Font Info:    Try loading font information for U+lasy on input line 307.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 312.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
+Underfull \vbox (badness 4967) has occurred while \output is active []
+
+ [8 <./images/NCaribouFuture.png> <./images/NCanisPresent.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <./images/NCanisFuture.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
@@ -596,16 +591,19 @@ T1/pcr/m/n/9 https : / / www . ipcc . ch /
  []
 
 
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+ [12]
 Underfull \hbox (badness 2486) in paragraph at lines 43--47
 []\OT1/ppl/m/n/9 USFS.  Rangifer taran-dus.  $\OT1/pcr/m/n/9 http : / / www . f
 s . fed . us / database / feis / animals /
  []
 
-) [12] (./final.aux) ) 
+) [13] (./final.aux) ) 
 Here is how much of TeX's memory you used:
  2851 strings out of 493089
  38327 string characters out of 6134842
- 105664 words of memory out of 5000000
+ 110664 words of memory out of 5000000
  6240 multiletter control sequences out of 15000+600000
  15862 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -617,10 +615,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/
 texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on final.pdf (12 pages, 4468859 bytes).
+Output written on final.pdf (13 pages, 4468945 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
