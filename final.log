@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 DEC 2015 21:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 DEC 2015 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,22 +385,25 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box28
 \@float@everytoks=\toks29
 \@floatcapt=\box29
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
 ) (./final.aux)
 \openout1 = `final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 20.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
@@ -466,22 +469,34 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Info: Redefining \celsius on input line 20.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 20.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 20.
+Package gensymb Info: Using \Omega for \ohm on input line 20.
+
+Package gensymb Warning: Not defining \micro.
+
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 33.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/ppl/b/n' tried instead on input line 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 95.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -489,7 +504,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 133--141
+Underfull \hbox (badness 10000) in paragraph at lines 134--142
 
  []
 
@@ -497,7 +512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--141
 File: images/Figure1.png Graphic file (type png)
 
 <use images/Figure1.png>
-Package pdftex.def Info: images/Figure1.png used on input line 144.
+Package pdftex.def Info: images/Figure1.png used on input line 145.
 (pdftex.def)             Requested size: 266.88556pt x 355.53523pt.
 
 Underfull \vbox (badness 5403) has occurred while \output is active []
@@ -508,15 +523,15 @@ Underfull \vbox (badness 5403) has occurred while \output is active []
 File: images/NCladoniaPresent.png Graphic file (type png)
 
 <use images/NCladoniaPresent.png>
-Package pdftex.def Info: images/NCladoniaPresent.png used on input line 181.
+Package pdftex.def Info: images/NCladoniaPresent.png used on input line 182.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--183
+Underfull \hbox (badness 10000) in paragraph at lines 173--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--195
+Underfull \hbox (badness 10000) in paragraph at lines 186--196
 
  []
 
@@ -525,74 +540,87 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--195
 File: images/NCladoniaFuture.png Graphic file (type png)
 
 <use images/NCladoniaFuture.png>
-Package pdftex.def Info: images/NCladoniaFuture.png used on input line 198.
+Package pdftex.def Info: images/NCladoniaFuture.png used on input line 199.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
 
 <images/NCaribouPresent.png, id=29, 1970.36125pt x 1060.96375pt>
 File: images/NCaribouPresent.png Graphic file (type png)
 
 <use images/NCaribouPresent.png>
-Package pdftex.def Info: images/NCaribouPresent.png used on input line 211.
+Package pdftex.def Info: images/NCaribouPresent.png used on input line 212.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
  [7 <./images/NCladoniaFuture.png> <./images/NCaribouPresent.png>]
 <images/NCaribouFuture.png, id=36, 1970.36125pt x 1060.96375pt>
 File: images/NCaribouFuture.png Graphic file (type png)
 
 <use images/NCaribouFuture.png>
-Package pdftex.def Info: images/NCaribouFuture.png used on input line 224.
+Package pdftex.def Info: images/NCaribouFuture.png used on input line 225.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
 
 <images/NCanisPresent.png, id=37, 1970.36125pt x 1060.96375pt>
 File: images/NCanisPresent.png Graphic file (type png)
 
 <use images/NCanisPresent.png>
-Package pdftex.def Info: images/NCanisPresent.png used on input line 238.
+Package pdftex.def Info: images/NCanisPresent.png used on input line 239.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
 
 <images/NCanisFuture.png, id=38, 1970.36125pt x 1060.96375pt>
 File: images/NCanisFuture.png Graphic file (type png)
 
 <use images/NCanisFuture.png>
-Package pdftex.def Info: images/NCanisFuture.png used on input line 244.
+Package pdftex.def Info: images/NCanisFuture.png used on input line 245.
 (pdftex.def)             Requested size: 266.88556pt x 143.6934pt.
  [8 <./images/NCaribouFuture.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9 <./images/NCanisPresent.png> <./images/NCanisFuture.png>] (./final.bbl
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
+ [9 <./images/NCanisPresent.png> <./images/NCanisFuture.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    Try loading font information for U+lasy on input line 7.
+ [10]
+LaTeX Font Info:    Try loading font information for U+lasy on input line 307.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 1681) in paragraph at lines 4--8
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+(./final.bbl
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 8.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+Underfull \hbox (badness 1681) in paragraph at lines 19--23
 []\OT1/ppl/m/n/9 IPCC.  Cli-mate, en-vi-ron-ment and socio-economic state.  $\O
 T1/pcr/m/n/9 https : / / www . ipcc . ch /
  []
 
-[10]) [11] (./final.aux) ) 
+
+Underfull \hbox (badness 2486) in paragraph at lines 43--47
+[]\OT1/ppl/m/n/9 USFS.  Rangifer taran-dus.  $\OT1/pcr/m/n/9 http : / / www . f
+s . fed . us / database / feis / animals /
+ []
+
+) [12] (./final.aux) ) 
 Here is how much of TeX's memory you used:
- 2793 strings out of 493089
- 37594 string characters out of 6134842
- 103400 words of memory out of 5000000
- 6188 multiletter control sequences out of 15000+600000
- 15423 words of font info for 45 fonts, out of 8000000 for 9000
+ 2851 strings out of 493089
+ 38327 string characters out of 6134842
+ 105664 words of memory out of 5000000
+ 6240 multiletter control sequences out of 15000+600000
+ 15862 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,23p,254b,314s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on final.pdf (11 pages, 4456704 bytes).
+ 38i,8n,23p,248b,293s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/
+8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on final.pdf (12 pages, 4468859 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
