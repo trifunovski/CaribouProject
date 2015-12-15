@@ -1,20 +1,5 @@
 \begin{thebibliography}{1}
 
-\bibitem{jbrotton}
-Janet {Brotton} and Geoffrey {Wall}.
-\newblock Climate change and the {Bathurst} caribou herd in the {Northwest}
-  {Territories}, {Canada}.
-\newblock {\em Climatic Change}, 35, 1997.
-\newblock \url{http://link.springer.com/article/10.1023/A:1005313315265}.
-
-\bibitem{mfesta}
-M.~Festa-Bianchet, J.C. Ray, S.~Boutin, S.D. Côté, and A.~Gunn.
-\newblock Conservation of {caribou} ({Rangifer} tarandus) in {Canada}: an
-  uncertain future.
-\newblock {\em Canadian Journal of Zoology}, 89, 2011.
-\newblock
-  \url{http://www.nrcresearchpress.com/doi/abs/10.1139/z11-025#.Vl_9ot-rTdT}.
-
 \bibitem{ipcc4ar}
 IPCC.
 \newblock Climate, environment and socio-economic state.
@@ -36,7 +21,13 @@ Elizabeth~A. Lenart, R.~Terry Bowyer, Jay~Ver Hoef, and Roger~W. Ruess.
 
 \bibitem{usfs}
 USFS.
-\newblock Cladonia (cladina) spp.
+\newblock Cladonia {(Cladina)} spp.
 \newblock \url{http://www.fs.fed.us/database/feis/lichens/claspp/all.html}.
+
+\bibitem{usfs1}
+USFS.
+\newblock Wildlife species: {Canis} lupus.
+\newblock
+  \url{http://www.fs.fed.us/database/feis/animals/mammal/calu/all.html}.
 
 \end{thebibliography}

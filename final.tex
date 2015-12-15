@@ -1,12 +1,14 @@
 \documentclass[twoside]{article}
 \usepackage{ecj,palatino,epsfig,latexsym}
 \usepackage{url}
-\linespread{1.6}
+\linespread{2.0}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \usepackage{amsthm,amsmath}
 \usepackage{framed}
 \usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{float}
 
 %% do not add any other page- or text-size instruction here
 
@@ -24,7 +26,7 @@
         Middletown, 06459, CT, USA}
 \AND
        \name{\bf Maksim Trifunovski} \hfill \addr{mtrifunovski@wesleyan.edu}\\
-        \addr{Computer Science, Wesleyan University,
+        \addr{Computer Science Major, Wesleyan University,
         Middletown, 06459, CT, USA}
 }
 
@@ -34,7 +36,7 @@
 \begin{abstract}
 
   \section*{Background}
-  Caribou refers to the North American subspecies of Rangifer tarandus,
+  \indent Caribou refers to the North American subspecies of Rangifer tarandus,
   also known as the Reindeer in Europe and Asia. North American populations
   of caribou primarily inhabit the tundra and boreal forest ecosystems,
   presently ranging from Alaska across most of northern Canada. The gray
@@ -52,7 +54,7 @@
   conditions in 2070.
 
   \section*{Results} %if any
-  Using maximum entropy (Maxent) species distribution modeling, we examine
+  \indent Using maximum entropy (Maxent) species distribution modeling, we examine
   the current distribution of Rangifer tarandus, Canis Lupus and Cladonia
   rangiferina on the continent of North America, predict the possible
   distribution in 2070, and attempt to explain the various factors that
@@ -62,7 +64,7 @@
   almost the same.
 
   \section*{Conclusions}
-  The main conclusion that we can make is that the distribution of caribou will
+  \indent The main conclusion that we can make is that the distribution of caribou will
   shrink due to the effects of climate change, even though food sources such as
   Cladonia Rangiferina will still be available. While the results of the
   habitat change of gray wolf are inconclusive, we have to consider what the
@@ -92,7 +94,7 @@ Climate change.
 \end{framed}
 
 \section{Introduction}
-Our research involved three species: Reindeer lichen (Cladonia rangiferina),
+\indent Our research involved three species: Reindeer lichen (Cladonia rangiferina),
 caribou (Rangifer tarandus), and gray wolves (Canis lupus), which can all be
 found in similar ecosystems, including boreal forests and tundra. We chose to
 focus on these species’ distributions in North America specifically, as they
@@ -103,7 +105,7 @@ a substantial part of the caribou’s diet, especially in the winter months when
 other vegetation is not available as a food source. Wolves are one of the main
 predators of caribou, especially at northern latitudes where other prey is not
 as common. \\
-We chose to investigate the potential effect of climate change on these species
+\indent We chose to investigate the potential effect of climate change on these species
 because they inhabit an ecosystem that is very vulnerable to climate change.
 Air temperatures in the Arctic have been warming on average at twice the global
 rate, with the strongest warming in the winter and spring. Precipitation in the
@@ -113,7 +115,7 @@ expected to have a direct impact on species such as caribou, which have evolved
 specifically to thrive in cold climates. In addition, climate change could have
 significant effects on the food web, which is why we decided to investigate the
 caribou’s primary food source and predator as well. \\
-Our investigation used MaxEnt to establish distributions for all three species,
+\indent Our investigation used MaxEnt to establish distributions for all three species,
 based on location data found online. By comparing these distributions to current
 climate data, MaxEnt can predict a distribution of these species in 2070, using
 future climate data obtained from climate models. Since arctic climate change
@@ -128,7 +130,7 @@ grey wolves.
 
 
 \section{Methods}
-We gathered the caribou and gray wolf current data from vertnet.com,
+\indent We gathered the caribou and gray wolf current data from vertnet.com,
 and the Cladonia rangiferina data from gbif.org (Global Biodiversity
 Information Facility). From the downloaded datasets in .tsv format,
 only the latitude and longitude coordinates were used to create the
@@ -137,13 +139,13 @@ also filtered to only consider location data for North America, as all
 three species can also be found elsewhere with similar ecosystems, such
 as Eurasia. (Figure 1) \\
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.7\textwidth]{Figure1}
 \caption{Cladonia rangiferina data}
 \end{figure}
 
-In order to predict the distribution of each of our three species of interest
+\indent In order to predict the distribution of each of our three species of interest
 in the year 2070, we used maximum entropy modeling (MaxEnt). We used current
 global climate data as well as future global climate predictions obtained
 from worldclim.org. We decided to use the following four climate variables:
@@ -167,26 +169,20 @@ results of the Maxent model for where the species is more suitable to live in.
 
 
 \section{Results}
-MaxEnt results are shown in the form of maps that indicate the suitability
+\indent MaxEnt results are shown in the form of maps that indicate the suitability
 for where each species is likely to be able to live. Figure 2 shows the
 present distribution, and Figure 3 shows the future distribution for
 reindeer lichen (Cladonia rangiferina). It is clear that most of the
 continent of North America (except for some parts of Mexico) is habitable
 for Cladonia rangiferina, and even in 2070, the distribution does not change
 too much. \\
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[width=0.7\textwidth]{NCladoniaPresent}
 \caption{Distribution of Cladonia Rangiferina in North America}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=0.7\textwidth]{NCladoniaFuture}
-\caption{Distribution of Cladonia Rangiferina in North America}
-\end{figure}
-
-Cladonia rangiferina is a very hardy lichen, which can grow in varied conditions
+\indent Cladonia rangiferina is a very hardy lichen, which can grow in varied conditions
 of temperature and precipitation. Unlike many plants, it is also well suited
 to very cold climates, which enables it to grow at high latitudes in the
 tundra ecosystem. By absorbing moisture directly from the air, it is also able
@@ -195,27 +191,101 @@ seen in the map because much of Alaska, Northern Canada, and even coastal
 Greenland is seen as a suitable habitat for Cladonia rangiferina, whereas
 the southern portion of the US is less suitable. By absorbing moisture
 directly from the air, it is also able to thrive in areas with low
-precipitation. (US Forest Service)\\
+precipitation. \cite{usfs} \\
 
-Figures 4 and 5 show the current and future distribution of caribou. We
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{NCladoniaFuture}
+\caption{Distribution of Cladonia Rangiferina in North America}
+\end{figure}
+
+\indent Figures 4 and 5 show the current and future distribution of caribou. We
 immediately notice that the amount of suitable habitat for caribou noticeably
 shrinks between now and 2070, which indicates that climate change will probably
-have a significant effect on the current habitat of caribou. \cite{jbrotton}
-\cite{mfesta} \cite{elenart}
+have a significant effect on the current habitat of caribou. However, some of
+the reported locations of caribou seem highly unlikely, such as the Yucatan
+peninsula in Mexico, or Florida.
 
-\begin{figure}[h!]
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.7\textwidth]{NCaribouPresent}
 \caption{Distribution of Caribou in North America}
 \end{figure}
 
-\begin{figure}[h!]
+This might be due to errors in reporting the
+location, or it might be location data from caribou found in zoos. The amount
+of suitable habitat for caribou seems to shrink across the entire continent,
+so overall we predict that due to climate change, especially warming in the
+near-arctic region, caribou will have less suitable habitat in the future.
+
+
+\begin{figure}[!ht]
 \centering
 \includegraphics[width=0.7\textwidth]{NCaribouFuture}
 \caption{Predicted Caribou habitat for year 2070}
 \end{figure}
 
+\indent Figures 6 and 7 show the current and future distribution of grey wolves.
+Their current suitable habitat covers much of the continent, and even in
+2070 it appears that they would not be affected too much by climate change,
+as there is only a slight decrease in suitability in some areas of the
+continental US. Overall, it seems that grey wolves should still be able
+to live across North America, as they are able to live in varying climate
+conditions.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{NCanisPresent}
+\caption{Distribution of Canis Lupus in North America}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.7\textwidth]{NCanisFuture}
+\caption{Predicted Canis Lupus habitat for year 2070}
+\end{figure}
+
+
 \section{Discussion}
+\indent Our results showed that reindeer lichen and grey wolves are unlikely
+to be affected very much by climate change, probably due to the fact
+that they can thrive in many different climatic conditions. However,
+caribou are specialized to live in cold climates, and so climate change
+is more likely to impact them, as seen by the fact that their suitable
+habitat decreases substantially. \\
+\indent Because MaxEnt only considers climate variables when modeling the distributions
+of these species, there are likely some discrepancies between where these
+species are actually found and where MaxEnt predicts them to be found. For
+example, according to the MaxEnt maps, grey wolves could live pretty much
+anywhere in North America just based on how suitable the climate is, yet
+there are definitely other factors that influence where wolves actually
+live. One such factor is the availability of prey, since wolves’ actual
+habitat seems to be more affected by where their prey lives than by climatic
+or ecological factors \cite{usfs1}. We can also assume that human
+presence, or lack thereof, is another major factor in determining where wolves
+would live, as they tend to prefer remote areas, away from large human
+presence. Although climate change does not appear to directly affect the
+distribution of grey wolves, it is possible that grey wolves would be affected
+indirectly. In our results we see the distribution of caribou shrink,
+especially in the Northern part of Canada, where caribou provide the main
+prey for wolves. This suggests that even if the climate could support
+large populations of wolves, there might not be enough prey, and so wolf
+populations might decrease or relocate to areas with more prey. In addition,
+if climate change leads to more human activity near the arctic
+(such as mining, fossil fuel extraction), it is likely that wolves will
+not be able to inhabit those regions. \\
+\indent Similarly, the distribution of reindeer lichen seems relatively unaffected
+by climate change. These lichens would also likely not be as affected by
+other factors, although a decrease in predation from caribou might actually
+lead to an increase in lichen. The current and future distributions of the
+lichen overlap with the distributions of caribou, which suggests that food
+availability would not be an issue for caribou, even if their suitable
+habitat changes, because they are likely to find Cladonia rangiferina in
+almost every possible habitat in North America. In addition, caribou diets
+include a variety of other plant species such as willow, lichen, forbs, and
+graminoids, depending on the seasonal availability \cite{elenart}.
+
+
 
 \small
 
